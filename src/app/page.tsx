@@ -1,7 +1,25 @@
+import HeroSection from "./components/HeroSection";
+import OverviewSection from "./components/OverviewSection";
+import ExploreSection from "./components/ExploreSection";
+import SpeakersSection from "./components/SpeakersSection";
+import ExpertHighlight from "./components/ExpertHighlight";
+import InsightsSection from "./components/InsightsSection";
+import AgendaSection from "./components/AgendaSection";
+import RSVPSection from "./components/RSVPSection";
+import Footer from "./components/Footer";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-black text-white">
-      <h1 className="text-3xl font-bold">Tailwind v4 Ready</h1>
-    </main>
+    <>
+      <HeroSection/>
+      <OverviewSection />
+      <ExploreSection />
+      <SpeakersSection />
+      <ExpertHighlight />
+      <InsightsSection />
+      <AgendaSection />
+      <RSVPSection />
+      <Footer />
+    </>
   );
 }

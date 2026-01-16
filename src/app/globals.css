@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
-/* Global resets */
-html,
-body {
-  padding: 0;
-  margin: 0;
+@theme {
+  --color-sl-dark: #0B0F1A;
+  --color-sl-blue: #0E3FA9;
+  --color-sl-cyan: #18C7C7;
+  --color-sl-orange: #F7941D;
+  --color-sl-text: #1F2937;
+  --color-sl-muted: #6B7280;
 }
