@@ -6,7 +6,7 @@ A pixel-perfect landing page built as part of the **Simplilearn SDE-1 Technical 
 
 ## 🔗 Live Demo
 
-👉 **Live URL:** https://your-deployment-url.vercel.app  
+👉 **Live URL:** https://simplilearn-landing-page.vercel.app/ 
 👉 **GitHub Repo:** https://github.com/your-username/simplilearn-sde1-landing
 
 ---
