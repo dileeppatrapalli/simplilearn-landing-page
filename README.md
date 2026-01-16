@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Simplilearn – Dallas Round Table (Option A)
 
-## Getting Started
+A pixel-perfect landing page built as part of the **Simplilearn SDE-1 Technical Assessment** using **Next.js (App Router)**, **Tailwind CSS**, and **Server Actions**, with a functional **RSVP form integrated with Airtable**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔗 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 **Live URL:** https://your-deployment-url.vercel.app  
+👉 **GitHub Repo:** https://github.com/your-username/simplilearn-sde1-landing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Objective
 
-## Learn More
+To translate the provided **Figma Option A design** into a **fully functional, pixel-perfect landing page** while leveraging the **latest Next.js features**, clean architecture, and server-side integrations.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework:** Next.js (Latest) – App Router
+- **Styling:** Tailwind CSS (v4)
+- **Language:** TypeScript
+- **Architecture:**
+  - Server Components for UI
+  - Server Actions for form handling
+- **Backend Integration:** Airtable API
+- **Deployment:** Vercel
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ✅ **100% Design Fidelity** with Figma Option A  
+  (spacing, typography, colors, alignment)
+- ✅ Fully responsive (desktop & mobile)
+- ✅ Functional **RSVP form**
+- ✅ Server Action–based form submission
+- ✅ Secure environment variable handling
+- ✅ Clean, modular component structure
+
+---
+
+## 📐 Design Reference
+
+- **Figma Design (Option A):**  
+  https://www.figma.com/design/u2N3NPXwlqvuOXE0H3DuBd/Simplilearn---Dallas-Round-Table
+
+---
+
+## 📂 Project Structure
+
+src/
+├── app/
+│ ├── layout.tsx
+│ ├── page.tsx
+│ └── globals.css
+├── components/
+│ ├── HeroSection.tsx
+│ ├── OverviewSection.tsx
+│ ├── ExploreSection.tsx
+│ ├── ExpertHighlight.tsx
+│ ├── SpeakersSection.tsx
+│ ├── AgendaSection.tsx
+│ ├── RSVPSection.tsx
+│ └── Footer.tsx
+└── lib/
+└── airtable.ts
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env.local` file in the project root:
+
+```env
+AIRTABLE_API_KEY=your_airtable_api_key
+AIRTABLE_BASE_ID=your_base_id
+AIRTABLE_TABLE_NAME=RSVPs
+
+🤖 AI Tooling Disclosure
+
+AI tools (ChatGPT) were used to assist development speed, while ensuring:
+
+Clean, readable code
+
+Proper architecture
+
+Manual verification of design fidelity
+
+👤 Author
+
+Dileep Patrapalli
+Frontend / Full Stack Developer
+
+GitHub: https://github.com/Dileep8221
+
+LinkedIn: https://www.linkedin.com/in/dileeppatrapalli
+
